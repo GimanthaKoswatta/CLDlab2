@@ -33,7 +33,7 @@ jobs:
         echo "Listing files in $(pwd):"
         ls
 
-    - name: 'Package Lambda Function'
+    - name: 'Package Lambda Function1'
       run: |
         zip -j lambda/lambda_function.zip lambda/index.py 
     - name: 'Terraform Init'
